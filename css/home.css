@@ -36,6 +36,14 @@
   gap: 1.25rem; /* 20/16 */
   grid-template-columns: minmax(18.125rem, 27.25rem);
 }
+.person__item {
+  max-inline-size: 27.25rem; /* 436/16 */
+  display: flex;
+  position: relative;
+  inline-size: 100%;
+  aspect-ratio: 436 / 326;
+  align-items: end;
+}
 .person__item:nth-child(3n + 1) .person__title {
   background-color: var(--person-first-card-bg);
 }
@@ -45,14 +53,7 @@
 .person__item:nth-child(3n) .person__title {
   background-color: var(--person-third-card-bg);
 }
-.person__article {
-  max-inline-size: 27.25rem; /* 436/16 */
-  display: flex;
-  position: relative;
-  inline-size: 100%;
-  aspect-ratio: 436 / 326;
-  align-items: end;
-}
+
 .person__image {
   position: absolute;
   inset-inline-start: 0;
