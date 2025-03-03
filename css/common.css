@@ -1,0 +1,29 @@
+[class*='--cover'] img,
+[class*='--cover'] video {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+[class*='--contain'] img,
+[class*='--contain'] video {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}
+.title {
+  color: var(--primary-title);
+  font-size: 2.5rem; /* 40/16 */
+  font-weight: 700;
+}
+@media (any-hover: hover) {
+  [class*='--img-hover'] a {
+    transition: filter 0.3s ease;
+  }
+
+  [class*='--img-hover']:hover a {
+    filter: var(--phone-image-color);
+  }
+  [class*='--img-hover']:active a {
+    filter: none;
+  }
+}

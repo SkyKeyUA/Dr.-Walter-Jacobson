@@ -1,0 +1,25 @@
+:root {
+  /* fonts */
+  --main-font-family: 'Lato', serif;
+
+  /* colors */
+  --primary-title: #666666;
+  --primary-text: #000000;
+
+  --pramary-bg: #ffffff;
+  --second-bg: #e6e6e6;
+
+  --testamonials-card-border-color: #c0c0c0;
+
+  --person-first-card-bg: #149376;
+  --person-second-card-bg: #2d61ae;
+  --person-third-card-bg: #b58429;
+
+  --phone-image-color: invert(42%) sepia(99%) saturate(334%) hue-rotate(116deg) brightness(90%)
+    contrast(98%);
+  --youtube-image-color: brightness(0) saturate(100%) invert(14%) sepia(76%) saturate(4258%)
+    hue-rotate(353deg) brightness(102%) contrast(125%);
+  --hover-icon: brightness(0) invert(28%) sepia(78%) saturate(3802%) hue-rotate(236deg)
+    brightness(98%) contrast(97%);
+  --img-filter: brightness(0) invert(1);
+}
