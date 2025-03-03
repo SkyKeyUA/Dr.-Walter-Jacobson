@@ -23,9 +23,6 @@
   width: 4rem; /* 64/16 */
   aspect-ratio: 1;
 }
-
-.menu {
-}
 .menu ul {
   display: flex;
   flex-wrap: wrap;
