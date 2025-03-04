@@ -28,11 +28,9 @@
 }
 .videos__list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 2rem; /* 32/16 */
 }
 .videos__item {
-  padding: 2.5rem; /* 40/16 */
   background-color: var(--second-bg);
 }
 .videos__title {
@@ -40,10 +38,9 @@
   font-size: 1.5625rem; /* 25/16 */
   font-weight: 700;
   line-height: 1.4; /* 140% */
-  margin-block-end: 1.875rem; /* 30/16 */
 }
 .videos__youtube {
-  padding-block-end: 1.875rem; /* 30/16 */
+  padding-block-end: 1.5rem; /* 24/16 */
   margin-block-end: 1.25rem; /* 20/16 */
   border-block-end: 0.0625rem solid var(--testamonials-card-border-color);
 }
@@ -82,5 +79,30 @@
   }
   .hero__title strong {
     font-size: clamp(1.563rem, 2.188vw + 0.906rem, 2.813rem); /* 25>45 480>1394 */
+  }
+}
+@media (min-width: 649.98px) {
+  .videos__item {
+    padding: 2.5rem; /* 40/16 */
+  }
+  .videos__title {
+    margin-block-end: 1.5rem; /* 24/16 */
+  }
+}
+@media (min-width: 991.98px) {
+  .videos__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 649.98px) {
+  .videos__container {
+    padding-inline: 0;
+  }
+  .videos__item {
+    padding-inline: 0.9375rem; /* 15/16 */
+    padding-block: 1.25rem; /* 20/16 */
+  }
+  .videos__title {
+    margin-block-end: 1rem; /* 16/16 */
   }
 }
