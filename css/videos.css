@@ -3,7 +3,7 @@
 .hero {
   min-block-size: 100svh;
   position: relative;
-  padding-block: 6.25rem; /* 100/16 */
+  padding-block: 3.75rem; /* 60/16 */
 }
 .hero__bg {
   position: absolute;
