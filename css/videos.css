@@ -1,7 +1,7 @@
 @import 'style.css';
 
 .hero {
-  min-height: 100svh;
+  min-block-size: 100svh;
   position: relative;
   padding-block: 6.25rem; /* 100/16 */
 }
@@ -21,7 +21,7 @@
   font-size: 1.5625rem; /* 25/16 */
   font-weight: 300;
   line-height: 1.25; /* 125% */
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
 .videos {
   padding-block: 3.75rem; /* 60/16 */

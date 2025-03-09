@@ -5,7 +5,7 @@
   color: var(--primary-title);
   text-align: center;
   line-height: 1.556; /* 155.556% */
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   font-weight: 700;
 }
 @media (any-hover: hover) {

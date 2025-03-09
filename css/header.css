@@ -30,7 +30,7 @@
   color: var(--primary-title);
   font-style: normal;
   line-height: 1.167; /* 116.667% */
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
 .menu a {
   transition: color 0.3s;

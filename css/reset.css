@@ -62,3 +62,14 @@ input[type='tel'],
 textarea {
   appearance: none;
 }
+textarea {
+  resize: vertical;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}

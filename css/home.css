@@ -1,7 +1,7 @@
 @import 'style.css';
 
 .hero {
-  min-height: 100svh;
+  min-block-size: 100svh;
   position: relative;
   padding-block: 6.25rem; /* 100/16 */
 }
@@ -21,7 +21,7 @@
   font-size: 1.5625rem; /* 25/16 */
   font-weight: 300;
   line-height: 1.25; /* 125% */
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
 .person {
   background-color: var(--second-bg);
@@ -70,7 +70,7 @@
   font-size: 1.5625rem; /* 25/16 */
   font-weight: 700;
   line-height: 1.12; /* 112% */
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   inline-size: 100%;
 }
 .profile__container {
@@ -80,7 +80,7 @@
 }
 .profile__title {
   margin-block-end: 1.875rem; /* 30/16 */
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
 .profile__text {
   font-weight: 300;
@@ -110,7 +110,7 @@
   color: var(--pramary-bg);
   font-weight: 700;
   line-height: 1.556; /* 155.556% */
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
 .testamonials {
   padding-block: 1.875rem;
