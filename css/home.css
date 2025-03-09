@@ -144,9 +144,6 @@
   margin-block-end: 1rem; /* 16/16 */
 }
 @media (min-width: 479.98px) {
-  .hero {
-    padding-block: clamp(9.375rem, 8.753vw + 6.749rem, 14.375rem) 7.5rem; /* 150>230 480>1394 */ /* 120/16 */
-  }
   .hero__title {
     font-size: clamp(1.563rem, 1.641vw + 1.07rem, 2.5rem); /* 25>40 480>1394 */
   }
